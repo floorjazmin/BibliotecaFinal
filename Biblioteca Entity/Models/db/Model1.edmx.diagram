@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c914bedca8a146f1a962ffe723c01e59" Name="Diagram1">
+        <EntityTypeShape EntityType="BibliotecaModel.Alumnos" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.autores" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.Carreras" Width="1.5" PointX="7.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.Categorias" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.DetallesLibros" Width="1.5" PointX="7.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.Editoriales" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.Idiomas" Width="1.5" PointX="3" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.Libros" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.Paises" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.Libros_Alumnos" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="BibliotecaModel.FK_Libros_Alumnos_Alumnos" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_autores_Paises" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_Libros_autores" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_Libros_Categorias" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_DetallesLibros_Libros" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_Libros_Editorial" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_Libros_Idiomas" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_Libros_Alumnos_Libros" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
